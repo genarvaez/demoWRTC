@@ -3467,7 +3467,7 @@ window.Grtc = Grtc;
 
 var grtcClient = null;
 var grtcSession = null;
-var localID = "1280";
+var localID = "";
 var remoteID = "";
 var remoteStatusMsg = "";
 var conf = null;
