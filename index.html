@@ -6,7 +6,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
-<button class="iniciar_webrtc" id="iniciar_webrtc"><i class="fa fa-video-camera fa-lg" aria-hidden="true"></i></button>
+
   <div class="col s6 m6 l6">
 	 <div>
       <input type="button" style="text-align:left;width:100px;" value="createCliente" onClick="crearCliente();">
@@ -15,15 +15,7 @@
       <input type="button" style="text-align:left;width:100px;" value="hacerLlamada" onClick="hacerLlamada();">
       <input type="button" style="text-align:left;width:100px;" value="Terminate Call" onClick="terminateCall();">
     </div>
-    <div id="video_window">
-        <div class="previus">
-            <ul>
-                <li><i class="fa fa-thumbs-up" aria-hidden="true"></i> Navegador Óptimo</li>
-                <li><i class="fa fa-thumbs-up" aria-hidden="true"></i> Disponibilidad Audio/Video</li>
-            </ul>
-        </div>
         <table>
-            <i class="fa fa-times-circle-o fa-3x" aria-hidden="true"></i>
             <tr> <td> local view </td> <td> remote view </td> </tr>
             <tr>
                 <td> <video width="160" height="120" id="localView" autoplay="autoplay" controls> </td>
@@ -33,7 +25,6 @@
               <td> <span id="remoteStatus"></span> </td> 
             </tr>
         </table>
-    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="script.js"></script>
